@@ -1,0 +1,97 @@
+
+body {
+  font-size: 16px;
+}
+
+a {
+  color: #056433;
+  &:hover, &:visited {
+    color: #056433;
+  }
+}
+.ReactModalPortal {
+  .rich-text {
+    a {
+      position: unset;
+      color: #056433;
+      &:after,&:before {
+        content:'';
+        position: unset;
+      }
+    }
+  }
+}
+.btn-nucor {
+    background: #056433;
+    width: 160px;
+    height: 60px;
+    color: white;
+    font-weight: 100;
+    text-transform: uppercase;
+    position: relative;
+    border: none;
+  }
+
+  .btn-nucor::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-top: 20px solid #056433;
+    border-left: 20px solid #fff;
+    width: 0;
+  }
+
+#___gatsby {
+  height: 100%;
+}
+
+.ReactModal {
+  &__Overlay {
+    &--after-open {
+      background-color: rgba(0, 0, 0, 0.70) !important;
+      z-index: 9;
+    }
+  }
+}
+
+.ReactModal {
+  &__Content {
+    &--after-open {
+      border-radius: 0px !important;
+      border: 0px !important;
+      a {
+        color: black;
+        right: 17.5px;
+        position: absolute;
+        top: 14px;
+        text-decoration: none;
+        cursor: pointer;
+        text-indent: -9999px;
+        width: 22px;
+        &:before {
+          content: "";
+          height: 2px;
+          width: 21px;
+          background: black;
+          position: absolute;
+          transform: rotate(45deg);
+          left: 3px;
+          top: 10px;
+          cursor: pointer;
+        }
+        &:after {
+          content: "";
+          height: 2px;
+          width: 21px;
+          background: black;
+          position: absolute;
+          transform: rotate(-45deg);
+          right: -2px;
+          top: 10px;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}

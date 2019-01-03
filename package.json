@@ -1,11 +1,8 @@
 {
-  "name": "gatsby-contentful-starter",
-  "description": "Starter Contentful Gatsby Blog",
+  "name": "anil-kilari",
+  "description": "Personal Website using ReactJS, GatsbyJS and Contentful CMS",
   "version": "1.0.0",
-  "author": "Stefan Judis <stefanjudis@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/contentful-userland/gatsby-contentful-starter/issues"
-  },
+  "author": "Anil Kilari <kilarianil7@gmail.com>",
   "dependencies": {
     "gatsby-image": "^1.0.55",
     "gatsby-link": "^1.6.46",
@@ -25,19 +22,20 @@
     "gh-pages": "^1.2.0",
     "inquirer": "^6.0.0",
     "prettier": "^1.10.2",
+    "remarkable": "^1.7.1",
     "rimraf": "^2.6.2",
+    "styled-components": "^3.4.10",
     "yargs-parser": "^10.1.0"
   },
-  "homepage": "https://github.com/contentful-userland/gatsby-contentful-starter#readme",
+  "homepage": "https://www.anil-kilari.com",
   "keywords": [
     "gatsby",
     "contentful"
   ],
   "license": "MIT",
-  "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/contentful-userland/gatsby-contentful-starter.git"
+    "url": ""
   },
   "scripts": {
     "dev": "gatsby develop",
