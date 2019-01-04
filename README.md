@@ -5,6 +5,8 @@
 This project uses the following:
   * gatbsy-plugin-react
   * gatsby-source-contentful
+  * styled-components
+
 # Commands to run
 
 **npm run dev**
